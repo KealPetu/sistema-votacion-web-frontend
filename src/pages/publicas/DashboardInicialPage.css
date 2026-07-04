@@ -1,0 +1,10 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.landing-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-bg-page);
+}
