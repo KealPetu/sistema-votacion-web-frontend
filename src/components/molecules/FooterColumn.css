@@ -1,0 +1,26 @@
+.landing-footer__column {
+    min-width: 100px;
+}
+
+.landing-footer__column-title {
+    font-family: var(--font-primary);
+    font-size: var(--size-body-3);
+    font-weight: var(--weight-bold);
+    color: var(--color-dark);
+    margin-bottom: 15px;
+    display: block;
+}
+
+.landing-footer__column-link {
+    font-family: var(--font-primary);
+    font-size: var(--size-body-3);
+    color: var(--color-muted);
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+    transition: color 0.2s ease;
+}
+
+.landing-footer__column-link:hover {
+    color: var(--color-primary);
+}
